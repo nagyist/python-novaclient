@@ -8,11 +8,11 @@ test targets that can be run to validate the code.
 ``tox -e pep8``
   Style guidelines enforcement.
 
-``tox -e py38``
-  Traditional unit testing (Python 3.8).
+``tox -e py310``
+  Traditional unit testing (Python 3.10).
 
 ``tox -e functional``
-  Live functional testing against an existing OpenStack instance. (Python 3.8)
+  Live functional testing against an existing OpenStack instance. (Python 3.10)
 
 ``tox -e cover``
   Generate a coverage report on unit testing.
